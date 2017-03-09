@@ -4,11 +4,11 @@ Simple demonstration of how to make N-Tier application: WCF service reading from
 MVC presents the read data. XML file contain list of students and students' ID numbers. 
 This N-Tier application searches student by ID number.
 
-![Directories](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/directories.PNG)
+![Directories](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/directories.PNG)
 
-![XML file](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/xml.PNG)
+![XML file](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/xml.PNG)
 
-![New WCF project](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/createService.PNG)
+![New WCF project](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/createService.PNG)
 
 ### The Interface and WCF service file should look like this:
 
@@ -71,11 +71,11 @@ namespace WcfServiceLibrary1
 
 ### Right click the solution line in the solution explorer and create new MVC project:
 
-![](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/createApp.PNG)
+![](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/createApp.PNG)
 
 ### In the MVC project, right click References and add the WCF service:
 
-![](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/Linking.PNG)
+![](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/Linking.PNG)
 
 ### Put the following code into the HomeController.cs:
 
@@ -109,10 +109,10 @@ namespace MvcApplication1.Controllers
 
 ### For example, the following indicates what should be done if we are looking for the student with ID number of 02
 
-![](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/example.PNG)
+![](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/example.PNG)
 
 ### Right click the MVC Application project and set it as the start-up project
 
 ### Run the project. The result should be like below:
 
-![](https://github.com/atabegruslan/DotNET-MultiTier-App/raw/master/Illustrations/result.PNG)
+![](https://github.com/Ruslan-Aliyev/DotNET-MultiTier-App/raw/master/Illustrations/result.PNG)
